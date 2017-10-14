@@ -34,5 +34,5 @@ Docker image (16Mo) which watch for modification into the `/output` directory an
 
 
 ## Todo
-- Use the right livereload image (currently a fork)
+- Use the right livereload image (currently using a fork)
 - Remove the livereload extension requirement (add a nginx proxy w/ js injection ?)
