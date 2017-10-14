@@ -33,6 +33,13 @@ Docker image (20Mo) which watch for modification into the `/book` directory and 
 Docker image (16Mo) which watch for modification into the `/output` directory and reload the page in the navigator.
 
 
+## Related work
+- Asciidoctor Builder docker image [cethy/alpine-asciidoctor-builder](https://github.com/Cethy/alpine-asciidoctor-builder)
+ ([on docker hub](https://hub.docker.com/r/cethy/alpine-asciidoctor-builder/))
+- Asciidoctor Watcher docker image [cethy/alpine-asciidoctor-watcher](https://github.com/Cethy/alpine-asciidoctor-watcher)
+ ([on docker hub](https://hub.docker.com/r/cethy/alpine-asciidoctor-watcher/))
+
+
 ## Todo
 - Use the right livereload image (currently using a fork)
 - Remove the livereload extension requirement (add a nginx proxy w/ js injection ?)
