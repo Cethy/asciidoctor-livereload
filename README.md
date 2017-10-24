@@ -15,7 +15,7 @@ And docker, obviously.
 
 
     docker-compose build
-    docker-composer up
+    docker-compose up
 
 - Modify an `asc` file (to kickoff the ascidoctor watcher) ;
 - Open `ouput/index.html` into your favorite navigator ;
