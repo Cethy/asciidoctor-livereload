@@ -4,7 +4,7 @@ Asciidoctor-livereload
 Ready-to-go docker environment for Asciidoctor livereload.
 
 ## Requirements
-In the current implementation, you will need the [livereload extension](http://livereload.com/extensions/) for your web navigator.
+In the current implementation, you will need the [livereload extension](http://livereload.com/extensions/) for your web browser.
 
 And docker, obviously.
 
@@ -29,7 +29,7 @@ That's it !
 ### [`cethy/alpine-asciidoctor-watcher:micro`](https://github.com/Cethy/alpine-asciidoctor-watcher/)
 Docker image (20Mo) which watch for modification into the `/book` directory and run asciidoctor when modified.
 
-### [`franckdelage/docker-livereload`](https://github.com/franckdelage/docker-livereload)
+### [`cethy/alpine-livereload`](https://github.com/Cethy/alpine-livereload)
 Docker image (16Mo) which watch for modification into the `/output` directory and reload the page in the navigator.
 
 
@@ -41,5 +41,4 @@ Docker image (16Mo) which watch for modification into the `/output` directory an
 
 
 ## Todo
-- Use the right livereload image (currently using a fork)
 - Remove the livereload extension requirement (add a nginx proxy w/ js injection ?)
